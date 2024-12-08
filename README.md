@@ -1,0 +1,1 @@
+This bug demonstrates a common TypeScript error: assigning a string value to a variable of type number.  The `add` function is defined to accept two numbers. However, the call to `add(1, '2')` passes a string ('2') as the second argument, resulting in a type error. This highlights the importance of type safety in TypeScript.
